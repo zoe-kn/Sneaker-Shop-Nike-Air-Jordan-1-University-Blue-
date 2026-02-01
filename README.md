@@ -35,7 +35,7 @@ Clicking either button triggers a custom alert box with a relevant message. The 
 ├── script.js
 ├── pics/
 │   ├── 732E05E7-2BE8-40CA-B36B-038E1F98CB43_1_201_a.png
-│   ├── nike-transparent-nike-free-free-png.png
+│   └── nike-transparent-nike-free-free-png.png
 └── README.md
 
 ```
