@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan 1</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+    <!---Font for Navbar-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!---Font Headline-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!--Font Shoe Name-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="half-circle"> <!-- Decorative half-circle as background -->
+    </div>
+    <header>
+        <nav> <!-- Navigation bar -->
+            <img class="logo" src="/pics/nike-transparent-nike-free-free-png.png">
+            <a href="#men" class="men">MEN</a>
+            <a href="#woman" class="woman">WOMAN</a>
+            <a href="#sale" class="sale">SALE</a>
+            <a href="#snkrs" class="snkrs">SNKRS</a>
+        </nav>
+    </header>
+    <main>
+        <img class="jordan" src="/pics/732E05E7-2BE8-40CA-B36B-038E1F98CB43_1_201_a.png"> <!-- Product image -->
+        <div class="main">
+            <div class="headline"> <!-- Product title and name -->
+                <h1 class="big-headline">Nike Air Jordan 1</h1>
+                <h2 class="shoe-name">Retro High OG University Blue</h2>
+            </div>
+
+            <div class="product-text"> <!-- Product description text -->
+                <ul>
+                    <li>High Quality leather upper for durability</li>
+                    <li>Air-Sole unit in the heel for cushioning</li>
+                    <li>Iconic design with high recognition value</li>
+                    <li>Rubber outsole with flex grooves for traction and flexibility</li>
+                </ul>
+            </div>
+
+            <div class="lower-section"> <!-- Lower section with price and buttons -->
+                <h3 class="price">$220</h3> <!-- Product price -->
+                <div class="button-group">
+                    <button class="add-to-cart" id="add-to-cart">Add to Cart</button> <!-- Add to Cart button -->
+                    <button class="favorite" id="favorite">Favorite</button> <!-- Favorite button -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="alert hidden" id="custom-alert">
+        <p id="alert-text"></p>
+        <button id ="alert-close">OK</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
