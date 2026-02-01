@@ -1,5 +1,5 @@
 ## 🛒 Sneaker Shop – Nike Air Jordan 1 "University Blue"
-This is a front-end demo project showcasing a stylish product page for the iconic Nike Air Jordan 1 "Retro High OG University Blue". It features interactive buttons, custom alerts, and clean design — perfect for learning or expanding your e-commerce UI skills.
+This is a front-end demo project showcasing a stylish product page for the iconic Nike Air Jordan 1 "Retro High OG University Blue". It features interactive buttons, custom alerts, and clean design.
 
 ## ✨ Features
 Product display with image, description, and price
