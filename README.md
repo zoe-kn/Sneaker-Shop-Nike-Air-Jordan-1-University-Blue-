@@ -28,8 +28,14 @@ Product layout with price and two interactive buttons below the sneaker image.
 Clicking either button triggers a custom alert box with a relevant message. The alert is built with HTML/CSS and controlled via JavaScript, allowing full styling and animation flexibility.
 
 ## 📁 File Structure
+
+```bash
 ├── index.html
-├── style.css
+├── styles.css
 ├── script.js
-└── pics/
-  └── 
+├── pics/
+│   ├── 732E05E7-2BE8-40CA-B36B-038E1F98CB43_1_201_a.png
+│   ├── nike-transparent-nike-free-free-png.png
+└── README.md
+
+```
